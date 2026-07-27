@@ -1,8 +1,15 @@
 aid: intella
 name: Intella
-description: 'Intella is a company surfaced as a portfolio company of prosus-ventures and added to the
-  API Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Intella is an enterprise Arabic AI company founded in 2021 and headquartered
+  in the MENA region, building voice and customer-experience technology that natively
+  understands 25+ Arabic dialects and cultural nuances rather than adapting generic
+  global models. Its product suite includes Ziila (an AI voice agent for inbound/outbound
+  conversations), intellaCX (conversation analytics for sentiment and churn), intellaMX
+  (media translation and dialectal subtitling), and intellaVX (Arabic speech-to-text).
+  Intella raised a $12.5M Series A led by Prosus and is backed by 500 Global, Hala
+  Ventures, and Hearst, with partnerships including Visa and Jumia Egypt. The company
+  is currently a sales-led enterprise vendor with no public developer API or documentation
+  surface; this profile is maintained as an API Evangelist network lead.'
 url: https://raw.githubusercontent.com/api-evangelist/intella/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +17,37 @@ x-backed-by:
 - prosus-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-investors:
+- Prosus
+- 500 Global
+- Hala Ventures
+- Hearst
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://strapi.intella.me/uploads/large_1_d57220cbd0.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Ai
+- Voice AI
+- Conversational AI
+- Speech Recognition
+- Speech to Text
+- Arabic
+- Customer Experience
+- Natural Language Processing
+- MENA
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +55,26 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/intella-domain-security.yml
 - type: Website
   url: https://intella.me
+- type: Blog
+  url: https://intella.me/en/our-blogs
+- type: Support
+  url: https://intella.me/en/contact-us
+- type: PrivacyPolicy
+  url: https://intella.me/en/privacy-policy
+- type: Login
+  url: https://intella.me/en/auth/login
+- type: LinkedIn
+  url: https://www.linkedin.com/company/intellaworld
+- type: Instagram
+  url: https://www.instagram.com/intellaworld
+- type: YouTube
+  url: https://www.youtube.com/@intella123
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
